@@ -1,9 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import BaiTap from './components/BaiTap'
-import App1 from './exercise-1-class/App1'
+import "./App.css";
+import App1 from "./exercise-1-class/App1";
 
 function App() {
   // const chidi = {
@@ -21,9 +17,9 @@ function App() {
 
   return (
     <div>
-      <App1/>
+      <App1 />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
