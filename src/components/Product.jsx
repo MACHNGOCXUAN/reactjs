@@ -25,7 +25,7 @@ function Product({ product }) {
       />
       <div style={{ padding: "15px", display: "flex", flexDirection: "column", gap: "5px" }}>
         <h2 style={{ margin: 0, fontSize: "18px", fontWeight: "600", color: "#333" }}>
-          {product.description}
+          {product.title}
         </h2>
         <span
           style={{
